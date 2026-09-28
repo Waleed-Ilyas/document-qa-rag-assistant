@@ -1,0 +1,3670 @@
+{
+ "retrieval": {
+  "bm25": {
+   "n": 40,
+   "hit@1": 0.45,
+   "hit@1_ci": [
+    0.30705075280944694,
+    0.6017117011155924
+   ],
+   "suff@1": 0.55,
+   "suff@1_ci": [
+    0.39828829888440775,
+    0.6929492471905531
+   ],
+   "hit@3": 0.65,
+   "hit@3_ci": [
+    0.4950559699353738,
+    0.7786566682895086
+   ],
+   "suff@3": 0.75,
+   "suff@3_ci": [
+    0.598057409330299,
+    0.8581303210445048
+   ],
+   "hit@4": 0.65,
+   "hit@4_ci": [
+    0.4950559699353738,
+    0.7786566682895086
+   ],
+   "suff@4": 0.775,
+   "suff@4_ci": [
+    0.6249660359590695,
+    0.8768404674532148
+   ],
+   "hit@5": 0.675,
+   "hit@5_ci": [
+    0.52017458088898,
+    0.7991568303733828
+   ],
+   "suff@5": 0.8,
+   "suff@5_ci": [
+    0.6524239261814333,
+    0.8950013502683314
+   ],
+   "hit@10": 0.85,
+   "hit@10_ci": [
+    0.7092737396097997,
+    0.9293890829149256
+   ],
+   "suff@10": 0.85,
+   "suff@10_ci": [
+    0.7092737396097997,
+    0.9293890829149256
+   ],
+   "mrr@10": 0.5631547619047619,
+   "doc_hit@1": 0.85
+  },
+  "dense": {
+   "n": 40,
+   "hit@1": 0.375,
+   "hit@1_ci": [
+    0.2422277353579172,
+    0.529678399454681
+   ],
+   "suff@1": 0.525,
+   "suff@1_ci": [
+    0.37497106853929735,
+    0.6706477044981831
+   ],
+   "hit@3": 0.675,
+   "hit@3_ci": [
+    0.52017458088898,
+    0.7991568303733828
+   ],
+   "suff@3": 0.725,
+   "suff@3_ci": [
+    0.5716474916687543,
+    0.8389214656685692
+   ],
+   "hit@4": 0.725,
+   "hit@4_ci": [
+    0.5716474916687543,
+    0.8389214656685692
+   ],
+   "suff@4": 0.8,
+   "suff@4_ci": [
+    0.6524239261814333,
+    0.8950013502683314
+   ],
+   "hit@5": 0.775,
+   "hit@5_ci": [
+    0.6249660359590695,
+    0.8768404674532148
+   ],
+   "suff@5": 0.825,
+   "suff@5_ci": [
+    0.6804970794560755,
+    0.9125469700311694
+   ],
+   "hit@10": 0.875,
+   "hit@10_ci": [
+    0.7388757932976187,
+    0.9454058022645873
+   ],
+   "suff@10": 0.9,
+   "suff@10_ci": [
+    0.7694792561952611,
+    0.9604211124044252
+   ],
+   "mrr@10": 0.5431547619047619,
+   "doc_hit@1": 0.8
+  },
+  "hybrid": {
+   "n": 40,
+   "hit@1": 0.425,
+   "hit@1_ci": [
+    0.28509168524815875,
+    0.5780519956394001
+   ],
+   "suff@1": 0.55,
+   "suff@1_ci": [
+    0.39828829888440775,
+    0.6929492471905531
+   ],
+   "hit@3": 0.675,
+   "hit@3_ci": [
+    0.52017458088898,
+    0.7991568303733828
+   ],
+   "suff@3": 0.75,
+   "suff@3_ci": [
+    0.598057409330299,
+    0.8581303210445048
+   ],
+   "hit@4": 0.725,
+   "hit@4_ci": [
+    0.5716474916687543,
+    0.8389214656685692
+   ],
+   "suff@4": 0.8,
+   "suff@4_ci": [
+    0.6524239261814333,
+    0.8950013502683314
+   ],
+   "hit@5": 0.75,
+   "hit@5_ci": [
+    0.598057409330299,
+    0.8581303210445048
+   ],
+   "suff@5": 0.8,
+   "suff@5_ci": [
+    0.6524239261814333,
+    0.8950013502683314
+   ],
+   "hit@10": 0.925,
+   "hit@10_ci": [
+    0.8013546984090248,
+    0.9741644432281419
+   ],
+   "suff@10": 0.95,
+   "suff@10_ci": [
+    0.834958291820748,
+    0.9861796228538989
+   ],
+   "mrr@10": 0.5784623015873016,
+   "doc_hit@1": 0.825
+  },
+  "hybrid+rerank": {
+   "n": 40,
+   "hit@1": 0.475,
+   "hit@1_ci": [
+    0.32935229550181694,
+    0.6250289314607027
+   ],
+   "suff@1": 0.65,
+   "suff@1_ci": [
+    0.4950559699353738,
+    0.7786566682895086
+   ],
+   "hit@3": 0.75,
+   "hit@3_ci": [
+    0.598057409330299,
+    0.8581303210445048
+   ],
+   "suff@3": 0.825,
+   "suff@3_ci": [
+    0.6804970794560755,
+    0.9125469700311694
+   ],
+   "hit@4": 0.775,
+   "hit@4_ci": [
+    0.6249660359590695,
+    0.8768404674532148
+   ],
+   "suff@4": 0.825,
+   "suff@4_ci": [
+    0.6804970794560755,
+    0.9125469700311694
+   ],
+   "hit@5": 0.8,
+   "hit@5_ci": [
+    0.6524239261814333,
+    0.8950013502683314
+   ],
+   "suff@5": 0.875,
+   "suff@5_ci": [
+    0.7388757932976187,
+    0.9454058022645873
+   ],
+   "hit@10": 0.9,
+   "hit@10_ci": [
+    0.7694792561952611,
+    0.9604211124044252
+   ],
+   "suff@10": 0.9,
+   "suff@10_ci": [
+    0.7694792561952611,
+    0.9604211124044252
+   ],
+   "mrr@10": 0.6314880952380952,
+   "doc_hit@1": 0.85
+  }
+ },
+ "retrieval_misses_top5": [
+  {
+   "id": "a04",
+   "question": "Is use of the AI RMF mandatory?",
+   "gold": [
+    "ai-rmf",
+    [
+     7
+    ]
+   ],
+   "got": [
+    [
+     "ai-rmf",
+     14
+    ],
+    [
+     "ai-genai",
+     5
+    ],
+    [
+     "ai-rmf",
+     13
+    ],
+    [
+     "ai-rmf",
+     47
+    ],
+    [
+     "ai-rmf",
+     47
+    ]
+   ]
+  },
+  {
+   "id": "a06",
+   "question": "What are AI actors?",
+   "gold": [
+    "ai-rmf",
+    [
+     7
+    ]
+   ],
+   "got": [
+    [
+     "ai-genai",
+     17
+    ],
+    [
+     "ai-rmf",
+     40
+    ],
+    [
+     "ai-rmf",
+     40
+    ],
+    [
+     "ai-rmf",
+     40
+    ],
+    [
+     "ai-rmf",
+     42
+    ]
+   ]
+  },
+  {
+   "id": "a09",
+   "question": "How does the profile define the Data Privacy risk?",
+   "gold": [
+    "ai-genai",
+    [
+     8
+    ]
+   ],
+   "got": [
+    [
+     "privacy",
+     12
+    ],
+    [
+     "privacy",
+     34
+    ],
+    [
+     "privacy",
+     6
+    ],
+    [
+     "privacy",
+     12
+    ],
+    [
+     "privacy",
+     16
+    ]
+   ]
+  },
+  {
+   "id": "a13",
+   "question": "What are the six Functions of the CSF 2.0 Core?",
+   "gold": [
+    "csf",
+    [
+     8
+    ]
+   ],
+   "got": [
+    [
+     "incident",
+     13
+    ],
+    [
+     "csf",
+     31
+    ],
+    [
+     "csf",
+     20
+    ],
+    [
+     "csf",
+     20
+    ],
+    [
+     "incident",
+     18
+    ]
+   ]
+  },
+  {
+   "id": "a19",
+   "question": "What are the five Functions of the Privacy Framework Core?",
+   "gold": [
+    "privacy",
+    [
+     10
+    ]
+   ],
+   "got": [
+    [
+     "privacy",
+     13
+    ],
+    [
+     "privacy",
+     11
+    ],
+    [
+     "privacy",
+     6
+    ],
+    [
+     "privacy",
+     13
+    ],
+    [
+     "privacy",
+     21
+    ]
+   ]
+  },
+  {
+   "id": "a24",
+   "question": "What does SSDF practice PS.1 aim to prevent?",
+   "gold": [
+    "ssdf",
+    [
+     18
+    ]
+   ],
+   "got": [
+    [
+     "ssdf",
+     8
+    ],
+    [
+     "ssdf",
+     8
+    ],
+    [
+     "ssdf",
+     13
+    ],
+    [
+     "ssdf",
+     33
+    ],
+    [
+     "ssdf",
+     4
+    ]
+   ]
+  },
+  {
+   "id": "a37",
+   "question": "How does SP 800-63-4 change IAL1?",
+   "gold": [
+    "identity",
+    [
+     15
+    ]
+   ],
+   "got": [
+    [
+     "identity",
+     95
+    ],
+    [
+     "identity",
+     95
+    ],
+    [
+     "identity",
+     8
+    ],
+    [
+     "identity",
+     13
+    ],
+    [
+     "identity",
+     13
+    ]
+   ]
+  },
+  {
+   "id": "a38",
+   "question": "What new authentication options does SP 800-63-4 provide?",
+   "gold": [
+    "identity",
+    [
+     15
+    ]
+   ],
+   "got": [
+    [
+     "identity",
+     95
+    ],
+    [
+     "identity",
+     14
+    ],
+    [
+     "identity",
+     95
+    ],
+    [
+     "identity",
+     12
+    ],
+    [
+     "identity",
+     13
+    ]
+   ]
+  }
+ ],
+ "abstain_threshold": -0.8436543941497803,
+ "generation": {
+  "extractive": {
+   "all": {
+    "n_answerable": 40,
+    "n_unanswerable": 8,
+    "complete_rate": 0.75,
+    "complete_ci": [
+     0.598057409330299,
+     0.8581303210445048
+    ],
+    "mean_coverage": 0.7737499999999999,
+    "false_abstain_rate": 0.0,
+    "cited_rate": 1.0,
+    "citation_precision": 0.37623762376237624,
+    "any_gold_cited_rate": 0.725,
+    "invalid_citation_rate": 0.0,
+    "model_cited_rate": 1.0,
+    "correct_abstain_rate": 0.75,
+    "correct_abstain_ci": [
+     0.40926987910258916,
+     0.9285223111419724
+    ],
+    "mean_seconds": 1.8777083333333333
+   },
+   "test": {
+    "n_answerable": 30,
+    "n_unanswerable": 6,
+    "complete_rate": 0.7666666666666667,
+    "complete_ci": [
+     0.5907132766967574,
+     0.8820776078949878
+    ],
+    "mean_coverage": 0.7899999999999999,
+    "false_abstain_rate": 0.0,
+    "cited_rate": 1.0,
+    "citation_precision": 0.34615384615384615,
+    "any_gold_cited_rate": 0.7333333333333333,
+    "invalid_citation_rate": 0.0,
+    "model_cited_rate": 1.0,
+    "correct_abstain_rate": 0.6666666666666666,
+    "correct_abstain_ci": [
+     0.29998832134152864,
+     0.9032306674407831
+    ],
+    "mean_seconds": 1.8511111111111112
+   }
+  },
+  "qwen2.5-0.5b": {
+   "all": {
+    "n_answerable": 40,
+    "n_unanswerable": 8,
+    "complete_rate": 0.65,
+    "complete_ci": [
+     0.4950559699353738,
+     0.7786566682895086
+    ],
+    "mean_coverage": 0.7170833333333333,
+    "false_abstain_rate": 0.0,
+    "cited_rate": 1.0,
+    "citation_precision": 0.5,
+    "any_gold_cited_rate": 0.625,
+    "invalid_citation_rate": 0.0,
+    "model_cited_rate": 0.025,
+    "correct_abstain_rate": 0.75,
+    "correct_abstain_ci": [
+     0.40926987910258916,
+     0.9285223111419724
+    ],
+    "mean_seconds": 9.677708333333333
+   },
+   "test": {
+    "n_answerable": 30,
+    "n_unanswerable": 6,
+    "complete_rate": 0.7,
+    "complete_ci": [
+     0.5212387898833981,
+     0.8333543735604105
+    ],
+    "mean_coverage": 0.7616666666666667,
+    "false_abstain_rate": 0.0,
+    "cited_rate": 1.0,
+    "citation_precision": 0.5,
+    "any_gold_cited_rate": 0.6,
+    "invalid_citation_rate": 0.0,
+    "model_cited_rate": 0.03333333333333333,
+    "correct_abstain_rate": 0.6666666666666666,
+    "correct_abstain_ci": [
+     0.29998832134152864,
+     0.9032306674407831
+    ],
+    "mean_seconds": 9.768888888888888
+   }
+  },
+  "qwen2.5-1.5b": {
+   "all": {
+    "n_answerable": 40,
+    "n_unanswerable": 8,
+    "complete_rate": 0.75,
+    "complete_ci": [
+     0.598057409330299,
+     0.8581303210445048
+    ],
+    "mean_coverage": 0.81375,
+    "false_abstain_rate": 0.0,
+    "cited_rate": 1.0,
+    "citation_precision": 0.5,
+    "any_gold_cited_rate": 0.6,
+    "invalid_citation_rate": 0.0,
+    "model_cited_rate": 0.025,
+    "correct_abstain_rate": 1.0,
+    "correct_abstain_ci": [
+     0.6755843804891231,
+     1.0
+    ],
+    "mean_seconds": 13.082083333333332
+   },
+   "test": {
+    "n_answerable": 30,
+    "n_unanswerable": 6,
+    "complete_rate": 0.7333333333333333,
+    "complete_ci": [
+     0.5555169795568831,
+     0.8581750444608938
+    ],
+    "mean_coverage": 0.8183333333333334,
+    "false_abstain_rate": 0.0,
+    "cited_rate": 1.0,
+    "citation_precision": 0.47619047619047616,
+    "any_gold_cited_rate": 0.5666666666666667,
+    "invalid_citation_rate": 0.0,
+    "model_cited_rate": 0.03333333333333333,
+    "correct_abstain_rate": 1.0,
+    "correct_abstain_ci": [
+     0.6096569663469354,
+     0.9999999999999999
+    ],
+    "mean_seconds": 13.069444444444445
+   }
+  }
+ },
+ "answers": {
+  "extractive": [
+   {
+    "id": "a01",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "AI RMF Core The AI RMF Core provides outcomes and actions that enable dialogue, understanding, and activities to manage AI risks and responsibly develop trustworthy AI systems. [1] AI RMF Core functions should be carried out in a way that reflects diverse and multidisciplinary perspectives, potentially including the views of AI actors outside the organization. [3] The AI RMF functions, described in Section 5, require diverse perspectives, disciplines, professions, and experiences. [4]",
+    "cited": [
+     1,
+     3,
+     4
+    ],
+    "seconds": 1.77,
+    "top_score": 9.851,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 0.25,
+    "complete": false,
+    "cited_gold": [
+     true,
+     true,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a02",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Characteristics of trustworthy AI systems include: valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed. [1] This Framework articulates the following characteristics of trustworthy AI and offers guidance for addressing them. [1] Trustworthy AI Characteristics: Accountable and Transparent, Explainable and Interpretable, Fair with Harmful Bias Managed, Privacy Enhanced, Safe, Secure and Resilient, Valid and Reliable 3. [3]",
+    "cited": [
+     1,
+     3
+    ],
+    "seconds": 1.36,
+    "top_score": 9.248,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a03",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Robust test, evaluation, validation, and verification (TEVV) processes can be iteratively applied – and documented – in early stages of the AI lifecycle and informed by representative AI Actors (see Figure 3 of the AI RMF). [1] The NIST modification highlights the importance of test, evaluation, verification, and validation (TEVV) processes throughout an AI lifecycle and generalizes the operational context of an AI system. [2] As a regular process within an AI lifecycle, TEVV allows for both mid-course remediation and post-hoc risk management. [3]",
+    "cited": [
+     1,
+     2,
+     3
+    ],
+    "seconds": 1.94,
+    "top_score": 6.335,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false,
+     true,
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a04",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Use of the AI RMF alone will not lead to these changes or provide the appropriate incentives. [1] The AI RMF should be universally applicable to any AI technology and to context-specific use cases. [4] The AI RMF should allow for communication of AI risks across an organization, between organizations, with customers, and to the public at large. [4]",
+    "cited": [
+     1,
+     4
+    ],
+    "seconds": 1.64,
+    "top_score": 4.367,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 0.0,
+    "complete": false,
+    "cited_gold": [
+     false,
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a05",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "Valid & Reliable is a necessary condition of trustworthiness and is shown as the base for other trustworthiness characteristics. [1] Valid & Reliable is a necessary condition of trustworthiness and is shown as the base for other trustworthiness characteristics. [2] Trustworthiness characteristics (shown in Figure 4) are inextricably tied to social and organizational behavior, the datasets used by AI systems, selection of AI models and algorithms and the decisions made by those who build them, and the interactions with the humans who provide insight from and oversight of such systems. [1]",
+    "cited": [
+     1,
+     2
+    ],
+    "seconds": 1.59,
+    "top_score": 7.774,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a06",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "14 AI Actors are defined by the OECD as \"those who play an active role in the AI system lifecycle, including organizations and individuals that deploy or operate AI.\" See Appendix A of the AI RMF for additional descriptions of AI Actors and AI Actor Tasks. [1] AI actors in this category include system integrators, software developers, end users, operators and practitioners, evaluators, and domain experts with expertise in human factors, socio-cultural analysis, and governance. [2] AI actors in this category include system integrators, software developers, end users, operators and practitioners, evaluators, and domain experts with expertise in human factors, socio-cultural analysis, and governance. [4]",
+    "cited": [
+     1,
+     2,
+     4
+    ],
+    "seconds": 1.23,
+    "top_score": 9.312,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false,
+     false,
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a07",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Confabulation: The production of confidently stated but erroneous or false content (known colloquially as \"hallucinations\" or \"fabrications\") by which users may be misled or deceived.6 3. [2] Risks from confabulations may arise when users believe false content – often due to the confident nature of the response – leading users to act upon or promote the false information. [1] Confabulation \"Confabulation\" refers to a phenomenon in which GAI systems generate and confidently present erroneous or false content in response to prompts. [3]",
+    "cited": [
+     2,
+     1,
+     3
+    ],
+    "seconds": 1.47,
+    "top_score": 3.313,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     false,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a08",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "CBRN Information or Capabilities: Eased access to or synthesis of materially nefarious information or design capabilities related to chemical, biological, radiological, or nuclear (CBRN) weapons or other dangerous materials or agents. [1] (2024) Data Poisoning: The Exploitation of Generative AI. [2] (2024) The Operational Risks of AI in Large-Scale Biological Attacks. [2]",
+    "cited": [
+     1,
+     2
+    ],
+    "seconds": 1.85,
+    "top_score": -0.145,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a09",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "Profiles Profiles are a selection of specific Functions, Categories, and Subcategories from the Core that an organization has prioritized to help it manage privacy risk. [1] A Current Profile indicates privacy outcomes that an organization is currently achieving, while a Target Profile indicates the outcomes needed to achieve the desired privacy risk management goals. [1] Profiles can be used to conduct selfassessments and to communicate within an organization or between organizations about how privacy risks are being managed. • Implementation Tiers (\"Tiers\") provide a point of reference on how an organization views privacy risk and whether it has sufficient processes and resources in place to manage that risk. [3]",
+    "cited": [
+     1,
+     3
+    ],
+    "seconds": 1.23,
+    "top_score": 5.398,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 0.0,
+    "complete": false,
+    "cited_gold": [
+     false,
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a10",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Human-AI Configuration GAI system use can involve varying risks of misconfigurations and poor interactions between a system and a human who is interacting with it. [1] Human-AI Configuration: Arrangements of or interactions between a human and an AI system which can result in the human inappropriately anthropomorphizing GAI systems or experiencing algorithmic aversion, automation bias, over-reliance, or emotional entanglement with GAI systems. [2] AI risk management approaches for human-AI configurations will be augmented by ongoing research and evaluation. [4]",
+    "cited": [
+     1,
+     2,
+     4
+    ],
+    "seconds": 1.18,
+    "top_score": 6.313,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false,
+     true,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a11",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Value Chain and Component Integration; Intellectual Property MG-3.1-002 Test GAI system value chain risks (e.g., data poisoning, malware, other software and hardware vulnerabilities; labor practices; data privacy and localization compliance; geopolitical alignment). [1] Value Chain and Component Integration GAI value chains involve many third-party components such as procured datasets, pre-trained models, and software libraries. [3] Value Chain and Component Integration GV-6.2-002 Document incidents involving third-party GAI data and systems, including opendata and open-source software. [2]",
+    "cited": [
+     1,
+     3,
+     2
+    ],
+    "seconds": 1.35,
+    "top_score": 5.59,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 0.5,
+    "complete": false,
+    "cited_gold": [
+     false,
+     false,
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a12",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Environmental Impacts: Impacts due to high compute resource utilization in training or operating GAI models, and related outcomes that may adversely impact ecosystems. [3] Negative impact or harm can be experienced by individuals, groups, communities, organizations, society, the environment, and the planet. [2] When considering the negative impact of a potential event, risk is a function of 1) the negative impact, or magnitude of harm, that would arise if the circumstance or event occurs and 2) the likelihood of occurrence (Adapted from: OMB Circular A-130:2016). [2]",
+    "cited": [
+     3,
+     2
+    ],
+    "seconds": 1.28,
+    "top_score": 3.024,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a13",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "There are six CSF Functions: Govern, Identify, Protect, Detect, Respond, and Recover. [2] CSF 2.0 Core Function and Category names and identifiers The CSF Core, Informative References, and Implementation Examples are available on the CSF 2.0 website a nd through the CSF 2.0 Reference Tool, which allows users to explore t hem and export them in human- and machine-readable formats. [3] Table 1 lists the CSF 2.0 Core Function and Category names and unique alphabetic identifiers. [3]",
+    "cited": [
+     2,
+     3
+    ],
+    "seconds": 2.61,
+    "top_score": 6.913,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false,
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a14",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "There are four Tiers: Partial (Tier 1), Risk Informed (Tier 2), Repeatable (Tier 3), and Adaptive (Tier 4). [1] Notional Illustration of the CSF Tiers Tier Cybersecurity Risk Governance Cybersecurity Risk Management Tier 1: Partial Application of the organizational cybersecurity risk strategy is managed in an ad hoc manner. [4] There are four distinct Tiers, Partial (Tier 1), Risk Informed (Tier 2), Repeatable (Tier 3), and Adaptive (Tier 4), descriptions of which are in Appendix E. [3]",
+    "cited": [
+     1,
+     4,
+     3
+    ],
+    "seconds": 2.78,
+    "top_score": 7.811,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     false,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a15",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "CSF Organizational Profile A mechanism for describing an organization's current and/or target cybersecurity posture in terms of the CSF Core's outcomes. [2] CSF Profiles A CSF Organizational Profile describes an organization's current and/or target cybersecurity posture in terms of the Core's outcomes. [1] • CSF Organizational Profiles, which are a mechanism for describing an organization's current and/or target cybersecurity posture in terms of the CSF Core's outcomes. • CSF Tiers, which can be applied to CSF Organizational Profiles to characterize the rigor of an organization's cybersecurity risk governance and management practices. [3]",
+    "cited": [
+     2,
+     1,
+     3
+    ],
+    "seconds": 2.82,
+    "top_score": 9.126,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     false,
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a16",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Informative References are mappings that indicate relationships between the Core and various standards, guidelines, regulations, and other content. [1] When using the CSF, an organization can identify the most relevant Informative References. [2] The CSF Core, Informative References, and Implementation Examples are available on the CSF 2.0 website a nd through the CSF 2.0 Reference Tool, which allows users to explore t hem and export them in human- and machine-readable formats. [4]",
+    "cited": [
+     1,
+     2,
+     4
+    ],
+    "seconds": 2.6,
+    "top_score": 8.455,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false,
+     false,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a17",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "CSF Functions The Functions should be addressed concurrently. [1] Figure 2 shows the CSF Functions as a wheel because all of the Functions relate to one another. [2] There are six CSF Functions: Govern, Identify, Protect, Detect, Respond, and Recover. [3]",
+    "cited": [
+     1,
+     2,
+     3
+    ],
+    "seconds": 2.9,
+    "top_score": 7.338,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     false,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a18",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The GOVERN Function provides outcomes to inform what an organization may do to achieve and prioritize the outcomes of the other five Functions in the context of its mission and stakeholder expectations. [2] The GOVERN function provides organizations with the opportunity to clarify and define the roles and responsibilities for the humans in the Human-AI team configurations and those who are overseeing the AI system performance. [1] The GOVERN Function supports organizational risk communication with executives. [3]",
+    "cited": [
+     2,
+     1,
+     3
+    ],
+    "seconds": 1.34,
+    "top_score": 8.51,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     false,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a19",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The five Privacy Framework Functions are defined as follows: • Identify-P – Develop the organizational understanding to manage privacy risk for individuals arising from data processing. [2] For example, an organization may already have robust privacy risk management processes, but may use the Core's five Functions as a streamlined way to analyze and articulate any gaps. [1] For example, an organization may already have robust privacy risk management processes, but may use the Core's five Functions as a streamlined way to analyze and articulate any gaps. [4]",
+    "cited": [
+     2,
+     1,
+     4
+    ],
+    "seconds": 2.66,
+    "top_score": 7.534,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 0.2,
+    "complete": false,
+    "cited_gold": [
+     false,
+     false,
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a20",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Overview of the Privacy Framework As shown in Figure 1, the Privacy Framework is composed of three parts: Core, Profiles, and Implementation Tiers. [1] Like the Cybersecurity Framework, the Privacy Framework is composed of three parts: Core, Profiles, and Implementation Tiers. [2] Document Overview The remainder of this document contains the following sections and appendices: • Section 2 describes the Privacy Framework components: Core, Profiles, and Implementation Tiers. • Section 3 presents examples of how the Privacy Framework can be used. • The References section lists the references for the document. [3]",
+    "cited": [
+     1,
+     2,
+     3
+    ],
+    "seconds": 1.19,
+    "top_score": 9.425,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     true,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a21",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "The NIST Privacy Framework a nd Cybersecurity Framework can be used together to address the different aspects of cybersecurity and privacy risks. [3] Alternatively, organizations may use all five of the Cybersecurity Framework Functions in conjunction with Identify-P, Govern-P, Control-P, and Communicate-P to collectively address privacy and security risks. [2] Alternatively, organizations may use all five of the Cybersecurity Framework Functions in conjunction with Identify-P, Govern-P, Control-P, and Communicate-P to collectively address privacy and cybersecurity risks. [1]",
+    "cited": [
+     3,
+     2,
+     1
+    ],
+    "seconds": 1.28,
+    "top_score": 8.927,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false,
+     true,
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a22",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "12 The \"-P\" at the end of each Function name indicates that it is from the Privacy Framework in order to avoid confusion with Cybersecurity Framework Functions. [1] The Cybersecurity Framework, although intended to cover all types of cybersecurity incidents, can be 12 The \"-P\" at the end of each Function name indicates that it is from the Privacy Framework in order to avoid confusion with Cybersecurity Framework Functions. [4] The activities in the Identify-P Function are foundational for effective use of the Privacy Framework. [3]",
+    "cited": [
+     1,
+     4,
+     3
+    ],
+    "seconds": 3.35,
+    "top_score": 5.066,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     true,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a23",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The practices are organized into four groups: 1. [1] Executive Summary This document describes a set of fundamental, sound practices for secure software development called the Secure Software Development Framework (SSDF). [3] 2 The Secure Software Development Framework This document defines version 1.1 of the Secure Software Development Framework (SSDF) with fundamental, sound, and secure recommended practices based on established secure software development practice documents. [1]",
+    "cited": [
+     1,
+     3
+    ],
+    "seconds": 3.18,
+    "top_score": 7.337,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 0.0,
+    "complete": false,
+    "cited_gold": [
+     true,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a24",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Executive Summary This document describes a set of fundamental, sound practices for secure software development called the Secure Software Development Framework (SSDF). [2] 2 The Secure Software Development Framework This document defines version 1.1 of the Secure Software Development Framework (SSDF) with fundamental, sound, and secure recommended practices based on established secure software development practice documents. [3] The SSDF defines only a high-level subset of what organizations may need to do, so organizations should consult the references and other resources for additional information on implementing the practices. [1]",
+    "cited": [
+     2,
+     3,
+     1
+    ],
+    "seconds": 2.56,
+    "top_score": 3.383,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 0.0,
+    "complete": false,
+    "cited_gold": [
+     false,
+     false,
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a25",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "The SSDF and Executive Order 14028 The President's Executive Order (EO) on \"Improving the Nation's Cybersecurity (14028)\" issued on May 12, 2021 [EO14028], charged multiple agencies – including NIST – with enhancing cybersecurity through a variety of initiatives related to the security and integrity of the software supply chain. [1] In response to Section 4 of Executive Order (EO) 14028 on \"Improving the Nation's Cybersecurity,\" NIST held a June 2021 workshop and received over 150 position papers, many of which suggested secure software development practices, tasks, examples of implementations, and references for consideration for this SSDF update. [2] (The White House, Washington, DC), Executive Order 13681, October 17, 2014. [3]",
+    "cited": [
+     1,
+     2,
+     3
+    ],
+    "seconds": 2.78,
+    "top_score": 6.736,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     false,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a26",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Many organizations will find some PO practices to also be applicable to subsets of their software development, like individual development groups or projects. [1] PO.1.1: Identify and document all security requirements for the organization's software development infrastructures and processes, and maintain the requirements over time. [2] Prepare the Organization (PO): Organizations should ensure that their people, processes, and technology are prepared to perform secure software development at the organization level. [1]",
+    "cited": [
+     1,
+     2
+    ],
+    "seconds": 2.58,
+    "top_score": 2.933,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false,
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a27",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "RV.1.1: Gather information from software acquirers, users, and public sources on potential vulnerabilities in the software and third-party components that the software uses, and investigate all credible reports. [2] RV.2.2: Plan and implement risk responses for vulnerabilities. [3] Respond to Vulnerabilities (RV): Organizations should identify residual vulnerabilities in their software releases and respond appropriately to address those vulnerabilities and prevent similar ones from occurring in the future. [1]",
+    "cited": [
+     2,
+     3,
+     1
+    ],
+    "seconds": 2.62,
+    "top_score": 0.8,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     false,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a28",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "From Figure 1, the policy decision point (PDP) is broken down into two logical components: the policy engine and policy administrator (defined below). [1] Figure 2: Core Zero Trust Logical Components The component descriptions: • Policy engine (PE): This component is responsible for the ultimate decision to grant access to a resource for a given subject. [1] The policy engine makes and logs the decision (as approved, or denied), and the policy administrator executes the decision. • Policy administrator (PA): This component is responsible for establishing and/or shutting down the communication path between a subject and a resource (via commands to relevant PEPs). [3]",
+    "cited": [
+     1,
+     3
+    ],
+    "seconds": 1.37,
+    "top_score": 7.792,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a29",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "Zero trust assumes there is no implicit trust granted to assets or user accounts based solely on their physical or network location (i.e., local area networks versus the internet) or based on asset ownership (enterprise or personally owned). [1] Zero trust focuses on protecting resources (assets, services, workflows, network accounts, etc.), not network segments, as the network location is no longer seen as the prime component to the security posture of the resource. [2] Zero trust is a response to enterprise network trends that include remote users, bring your own device (BYOD), and cloud-based assets that are not located within an enterpriseowned network boundary. [2]",
+    "cited": [
+     1,
+     2
+    ],
+    "seconds": 1.99,
+    "top_score": 6.971,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a30",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "• Policy engine (PE): This component is responsible for the ultimate decision to grant access to a resource for a given subject. [1] The policy engine makes and logs the decision (as approved, or denied), and the policy administrator executes the decision. • Policy administrator (PA): This component is responsible for establishing and/or shutting down the communication path between a subject and a resource (via commands to relevant PEPs). [1] The policy engine takes input from multiple sources (see Section 3): the policy database with observable information about subjects, subject attributes and roles, historical subject behavior patterns, threat intelligence sources, and other metadata sources. [2]",
+    "cited": [
+     1,
+     2
+    ],
+    "seconds": 1.26,
+    "top_score": 7.701,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a31",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "This communication is done via the control plane. • Policy enforcement point (PEP): This system is responsible for enabling, monitoring, and eventually terminating connections between a subject and an enterprise resource. [1] Access is granted through a policy decision point (PDP) and corresponding policy enforcement point (PEP).3 Figure 1: Zero Trust Access The system must ensure that the subject is authentic and the request is valid. [2] Enterprises can mitigate this threat by having the policy enforcement reside in a properly secured cloud environment or be replicated in several locations following guidance on cyber resiliency [SP 800-160v2]. [3]",
+    "cited": [
+     1,
+     2,
+     3
+    ],
+    "seconds": 1.46,
+    "top_score": 5.967,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     false,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a32",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Zero trust is a response to enterprise network trends that include remote users, bring your own device (BYOD), and cloud-based assets that are not located within an enterpriseowned network boundary. [1] Therefore, a zero trust enterprise is the network infrastructure (physical and virtual) and operational policies that are in place for an enterprise as a product of a zero trust architecture plan. [2] An enterprise decides to adopt zero trust as its core strategy and generate a zero trust architecture as a plan developed with zero trust principles (see Section 2.1 below) in mind. [2]",
+    "cited": [
+     1,
+     2
+    ],
+    "seconds": 1.4,
+    "top_score": 6.092,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 0.0,
+    "complete": false,
+    "cited_gold": [
+     false,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a33",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "Incident response life cycle model based on CSF 2.0 Functions The bottom level reflects that the preparation activities of Govern, Identify, and Protect are not part of the incident response itself. [1] Detect, Respond, and Recover help organizations discover, manage, prioritize, contain, eradicate, and recover from cybersecurity incidents, as well as perform incident reporting, notification, and other incident-related communications. [1] Incident response is shown in the top level of the figure: Detect, Respond, and Recover. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 1.3,
+    "top_score": 6.814,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a34",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Lessons learned from incident response activities and root cause analysis help improve cybersecurity risk management and [2] Govern, Identify, and Protect help organizations prevent some incidents, prepare to handle incidents that do occur, reduce the impact of those incidents, and improve incident response and cybersecurity risk management practices based on lessons learned. [3] Executive Summary Incident response is a critical part of cybersecurity risk management and should be integrated across organizational operations. [4]",
+    "cited": [
+     2,
+     3,
+     4
+    ],
+    "seconds": 1.13,
+    "top_score": 7.139,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     false,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a35",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Table 1 maps the previous SP 800-61 incident response life cycle model's phases to the corresponding CSF 2.0 Functions used in this document. [3] Section 2.1 explores the incident response life cycle and proposes a new life cycle model based on CSF 2.0 Functions. [2] 1 depicts the incident response life cycle model illustrated in the previous version of this publication [SP800-61r2]. [2]",
+    "cited": [
+     3,
+     2
+    ],
+    "seconds": 2.61,
+    "top_score": 3.893,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false,
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a36",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Table 1 maps the previous SP 800-61 incident response life cycle model's phases to the corresponding CSF 2.0 Functions used in this document. [2] All six Functions have vital roles in incident response. [1] Each CSF 2.0 Function, Category, and Subcategory has its own row in one of the two tables. [4]",
+    "cited": [
+     2,
+     1,
+     4
+    ],
+    "seconds": 1.34,
+    "top_score": 7.151,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false,
+     true,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a37",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "SP 800-63-2 SP 800-63-2 was a limited update of SP 800-63-1 and substantive changes were only made in Sec. [2] It also moved the whole of digital identity guidance covered under SP 800-63 from a single document describing authentication to a suite of four documents (to separately address the individual components mentioned above) of which SP 800-63-3 is the top-level document. [1] SP 800-63-1 SP 800-63-1 updated NIST SP 800-63 to reflect current authenticator (then referred to as \"token\") technologies and restructured it to provide a better understanding of the digital identity architectural model used here. [2]",
+    "cited": [
+     2,
+     1
+    ],
+    "seconds": 2.3,
+    "top_score": 5.264,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 0.0,
+    "complete": false,
+    "cited_gold": [
+     false,
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a38",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "SP 800-63A contains both normative and informative material. • [SP800-63B] provides requirements for authentication processes that can be used at each of the three AALs, including choices of authenticators. [2] SP 800-63B contains both normative and informative material. • [SP800-63C] provides requirements on the use of federated identity architectures and assertions to convey the results of authentication processes and relevant identity information to an organization's application. [2] It also moved the whole of digital identity guidance covered under SP 800-63 from a single document describing authentication to a suite of four documents (to separately address the individual components mentioned above) of which SP 800-63-3 is the top-level document. [1]",
+    "cited": [
+     2,
+     1
+    ],
+    "seconds": 2.31,
+    "top_score": 4.877,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 0.0,
+    "complete": false,
+    "cited_gold": [
+     false,
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a39",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "For example: • To complete the proofing process, an organization could choose to verify an individual against additional pieces of identity evidence beyond what is required by the assurance level due to a high prevalence of fraudulent attempts. • An organization could restrict users to only phishing-resistant authentication at AAL2. [1] AAL3 Require phishing resistance and verifier compromise protections. [2] AAL3 authentication requires the use of a public-key cryptographic authenticator with a non-exportable private key that provides phishing resistance. [2]",
+    "cited": [
+     1,
+     2
+    ],
+    "seconds": 1.23,
+    "top_score": 8.843,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a40",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Identity Assurance Level • IAL1: IAL1 supports the real-world existence of the claimed identity and provides some assurance that the applicant is associated with that identity. [1] IAL Summary IAL Control Objectives User Profile IAL1 Limit highly scalable attacks. [4] Authentication Assurance Level • AAL1: AAL1 provides basic confidence that the claimant controls an authenticator that is bound to the subscriber account. [2]",
+    "cited": [
+     1,
+     4,
+     2
+    ],
+    "seconds": 1.24,
+    "top_score": 7.167,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     false,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "u01",
+    "answerable": false,
+    "split": "dev",
+    "abstained": true,
+    "reason": "low_retrieval_score",
+    "text": "I could not find this in the document library.",
+    "cited": [],
+    "seconds": 2.46,
+    "top_score": -11.053,
+    "invalid_citations": [],
+    "attribution": "model"
+   },
+   {
+    "id": "u02",
+    "answerable": false,
+    "split": "test",
+    "abstained": true,
+    "reason": "low_retrieval_score",
+    "text": "I could not find this in the document library.",
+    "cited": [],
+    "seconds": 1.8,
+    "top_score": -9.532,
+    "invalid_citations": [],
+    "attribution": "model"
+   },
+   {
+    "id": "u03",
+    "answerable": false,
+    "split": "test",
+    "abstained": true,
+    "reason": "low_retrieval_score",
+    "text": "I could not find this in the document library.",
+    "cited": [],
+    "seconds": 2.12,
+    "top_score": -10.772,
+    "invalid_citations": [],
+    "attribution": "model"
+   },
+   {
+    "id": "u04",
+    "answerable": false,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "1 https://go.forrester.com/blogs/next-generation-access-and-zero-trust/ 2 Any mention of commercial products or services within NIST documents is for information only; it does not imply a recommendation or endorsement by NIST. [2] 6.2 Zero Trust and NIST Privacy Framework Protecting the privacy of users and private information (e.g., personally identifiable information) is a prime concern for organizations. [4] achieve zero trust and thereby risk vendor lock-in. [1]",
+    "cited": [
+     2,
+     4,
+     1
+    ],
+    "seconds": 2.73,
+    "top_score": 2.77,
+    "invalid_citations": [],
+    "attribution": "model"
+   },
+   {
+    "id": "u05",
+    "answerable": false,
+    "split": "dev",
+    "abstained": true,
+    "reason": "low_retrieval_score",
+    "text": "I could not find this in the document library.",
+    "cited": [],
+    "seconds": 1.28,
+    "top_score": -6.952,
+    "invalid_citations": [],
+    "attribution": "model"
+   },
+   {
+    "id": "u06",
+    "answerable": false,
+    "split": "test",
+    "abstained": true,
+    "reason": "low_retrieval_score",
+    "text": "I could not find this in the document library.",
+    "cited": [],
+    "seconds": 1.49,
+    "top_score": -1.753,
+    "invalid_citations": [],
+    "attribution": "model"
+   },
+   {
+    "id": "u07",
+    "answerable": false,
+    "split": "test",
+    "abstained": true,
+    "reason": "low_retrieval_score",
+    "text": "I could not find this in the document library.",
+    "cited": [],
+    "seconds": 0.9,
+    "top_score": -5.818,
+    "invalid_citations": [],
+    "attribution": "model"
+   },
+   {
+    "id": "u08",
+    "answerable": false,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The AI RMF refers to an AI system as an engineered or machine-based system that can, for a given set of objectives, generate outputs such as predictions, recommendations, or decisions influencing real or virtual environments. [1] The AI RMF may be utilized along with related guidance and frameworks for managing AI system risks or broader enterprise risks. [2] At the same time, guidance available before publication of this AI RMF does not comprehensively address many AI system risks. [4]",
+    "cited": [
+     1,
+     2,
+     4
+    ],
+    "seconds": 1.27,
+    "top_score": 0.517,
+    "invalid_citations": [],
+    "attribution": "model"
+   }
+  ],
+  "qwen2.5-0.5b": [
+   {
+    "id": "a01",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "The four functions of the AI RMF Core are GOVERN, MAP, MEASURE, and MANAGE. [1][2]",
+    "cited": [
+     1,
+     2
+    ],
+    "seconds": 12.98,
+    "top_score": 9.851,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a02",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The framework describes the following characteristics of trustworthy AI systems: [1] 1. Valid and reliable 2. [2] Safe 3. [1][3] Secure and resilient 4. [1][3] Accountable and transparent 5. [2] Explainable and interpretable 6. [4] Privacy-enhanced 7. [1] Fair with harmful bias managed [3]",
+    "cited": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "seconds": 11.92,
+    "top_score": 9.248,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     true,
+     false,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a03",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "TEVV stands for Test, Evaluation, Verification, and Validation. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 8.28,
+    "top_score": 6.335,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a04",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Yes, use of the AI RMF is mandatory. [1][4]",
+    "cited": [
+     1,
+     4
+    ],
+    "seconds": 9.23,
+    "top_score": 4.367,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 0.0,
+    "complete": false,
+    "cited_gold": [
+     false,
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a05",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "Valid & Reliable is a necessary condition of trustworthiness and is shown as the base for other trustworthiness characteristics. [1][2]",
+    "cited": [
+     1,
+     2
+    ],
+    "seconds": 9.47,
+    "top_score": 7.774,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a06",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "AI actors are defined by the OECD as \"those who play an active role in the AI system lifecycle, including organizations and individuals that deploy or operate AI.\" [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 8.48,
+    "top_score": 9.312,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a07",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Confabulation is the confident production of false content, colloquially referred to as \"hallucinations\" or \"fabrications.\" [2][3]",
+    "cited": [
+     3,
+     2
+    ],
+    "seconds": 9.88,
+    "top_score": 3.313,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false,
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a08",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The generative AI risk that relates to chemical, biological, radiological, or nuclear weapons is the production of confidently stated but erroneous or false content (known colloquially as \"hallucinations\" or \"fabrications\") by which users may be misled or deceived. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 13.83,
+    "top_score": -0.145,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a09",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "The profile defines Data Privacy risk by identifying and evaluating specific privacy risks. [1][2]",
+    "cited": [
+     2,
+     1
+    ],
+    "seconds": 9.49,
+    "top_score": 5.398,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 0.0,
+    "complete": false,
+    "cited_gold": [
+     false,
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a10",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The Human-AI Configuration risk is that humans bring their unique perspectives, experiences, or domainspecific expertise to interactions with AI systems but may not have detailed knowledge of AI systems and how they work. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 9.97,
+    "top_score": 6.313,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 0.0,
+    "complete": false,
+    "cited_gold": [
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a11",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The Value Chain and Component Integration risk refers to the risks associated with the value chain and component integration process, including data poisoning, malware, other software and hardware vulnerabilities, labor practices, data privacy and localization compliance, geopolitical alignment, and third-party GAI models. [1][2]",
+    "cited": [
+     1,
+     2
+    ],
+    "seconds": 10.29,
+    "top_score": 5.59,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 0.5,
+    "complete": false,
+    "cited_gold": [
+     false,
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a12",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The Environmental Impacts risk describes impacts due to high compute resource utilization in training or operating GAI models, and related outcomes that may adversely impact ecosystems. [3]",
+    "cited": [
+     3
+    ],
+    "seconds": 10.3,
+    "top_score": 3.024,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a13",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "The six Functions of the CSF 2.0 Core are: Govern, Identify, Protect, Detect, Respond, and Recover. [1][2]",
+    "cited": [
+     1,
+     2
+    ],
+    "seconds": 12.15,
+    "top_score": 6.913,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false,
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a14",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The four CSF Tiers are Partial (Tier 1), Risk Informed (Tier 2), Repeatable (Tier 3), and Adaptive (Tier 4). [1][3]",
+    "cited": [
+     3,
+     1
+    ],
+    "seconds": 11.36,
+    "top_score": 7.811,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false,
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a15",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "A CSF Organizational Profile is a mechanism for describing an organization's current and/or target cybersecurity posture in terms of the CSF Core's outcomes. [2][3]",
+    "cited": [
+     3,
+     2
+    ],
+    "seconds": 10.57,
+    "top_score": 9.126,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a16",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Informative References are mappings that indicate relationships between the Core and various standards, guidelines, regulations, and other content. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 11.23,
+    "top_score": 8.455,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a17",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "Yes, the CSF Functions should be addressed one after another. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 10.63,
+    "top_score": 7.338,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 0.0,
+    "complete": false,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a18",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The GOVERN Function provides organizations with the opportunity to clarify and define the roles and responsibilities for the humans in the Human-AI team configurations and those who are overseeing the AI system performance. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 9.57,
+    "top_score": 8.51,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 0.0,
+    "complete": false,
+    "cited_gold": [
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a19",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The five Functions of the Privacy Framework Core are: Identify-P, Respond-P, Recover-P, Govern-P, and Communicate-P. [2]",
+    "cited": [
+     2
+    ],
+    "seconds": 11.46,
+    "top_score": 7.534,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 0.6,
+    "complete": false,
+    "cited_gold": [
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a20",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The Privacy Framework is composed of three parts: Core, Profiles, and Implementation Tiers. [1][2] Each component reinforces how organizations manage privacy risk through the connection between business or mission drivers, organizational roles and responsibilities, and privacy protection activities. [1]",
+    "cited": [
+     1,
+     2
+    ],
+    "seconds": 9.53,
+    "top_score": 9.425,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a21",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "The Privacy Framework and Cybersecurity Framework can be used together to address different aspects of cybersecurity and privacy risks. [1][3]",
+    "cited": [
+     3,
+     1
+    ],
+    "seconds": 9.21,
+    "top_score": 8.927,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 0.5,
+    "complete": false,
+    "cited_gold": [
+     false,
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a22",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The Privacy Framework Functions are labelled with a '-P' suffix to indicate that they are from the Privacy Framework, which is intended to cover all types of cybersecurity incidents. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 10.82,
+    "top_score": 5.066,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 0.0,
+    "complete": false,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a23",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "[1] (SSDF 1.1, page 13)\n2 The Secure Software Development Framework This document defines version 1.1 of the Secure Software Development Framework (SSDF) with fundamental, sound, and secure recommended practices based on established secure software development practice documents. The practices are organized into four groups: 1. Prepare the Organization (PO): Organizations should ensure that their people, processes, and technology are prepared to perform secure software development at the organization level. Many organizations will find some PO practices to also be applicable to subsets of their software development, like individual development groups or projects. 2. Protect the Software (PS): Organizations should protect all components of their software from tampering and unauthorized access. 3. Produce Well-Secured Software (PW): Organizations should produce well-secured software with minimal security vulnerabilities in its releases.",
+    "cited": [
+     1
+    ],
+    "seconds": 15.81,
+    "top_score": 7.337,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 0.75,
+    "complete": false,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a24",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "PS.1 aims to prevent tampering and unauthorized access to components of the software. [3]",
+    "cited": [
+     3
+    ],
+    "seconds": 17.63,
+    "top_score": 3.383,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a25",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "Executive Order 14028 was issued on May 12, 2021, and it was titled \"Improving the Nation's Cybersecurity (14028)\". [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 12.38,
+    "top_score": 6.736,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a26",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "PO.1.1: Identify and document all security requirements for the organization's software development infrastructures and processes, and maintain the requirements over time. [2]",
+    "cited": [
+     2
+    ],
+    "seconds": 10.76,
+    "top_score": 2.933,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a27",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Practice RV.1 focuses on gathering information from software acquirers, users, and public sources on potential vulnerabilities in the software and third-party components that the software uses, and investigate all credible reports. [2]",
+    "cited": [
+     2
+    ],
+    "seconds": 19.57,
+    "top_score": 0.8,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a28",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The policy decision point (PDP) is broken down into two logical components: the policy engine and policy administrator (defined below). [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 10.26,
+    "top_score": 7.792,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a29",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "Zero trust assumes there is no implicit trust granted to assets or user accounts based solely on their physical or network location (i.e., local area networks versus the internet) or based on asset ownership (enterprise or personally owned). [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 10.03,
+    "top_score": 6.971,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a30",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The policy engine is responsible for the ultimate decision to grant access to a resource for a given subject. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 8.81,
+    "top_score": 7.701,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a31",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The policy enforcement point (PEP) in the context of Zero Trust architecture is responsible for enabling, monitoring, and eventually terminating connections between a subject and an enterprise resource. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 10.67,
+    "top_score": 5.967,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a32",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "An enterprise treats its own network in a zero trust model by allowing devices and visiting service technicians to access the internet while obscuring enterprise resources. [3]",
+    "cited": [
+     3
+    ],
+    "seconds": 9.24,
+    "top_score": 6.092,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 0.0,
+    "complete": false,
+    "cited_gold": [
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a33",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "Govern, Identify, and Protect cover discovering, containing and recovering from incidents. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 9.39,
+    "top_score": 6.814,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 0.3333333333333333,
+    "complete": false,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a34",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The lessons learned from incidents matter for cybersecurity risk management because continuous improvement is increasingly necessary for all facets of cybersecurity risk management in order to keep up with modern threats. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 7.59,
+    "top_score": 7.139,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a35",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The basis of the incident response life cycle proposed in SP 800-61 Rev. [2][3] 3 is the CSF 2.0 Community Profile. [1]",
+    "cited": [
+     2,
+     3,
+     1
+    ],
+    "seconds": 11.89,
+    "top_score": 3.893,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     false,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a36",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The high-level incident response model uses six functions. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 9.44,
+    "top_score": 7.151,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a37",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "SP 800-63-4 changes IAL Summary. [1][3]",
+    "cited": [
+     1,
+     3
+    ],
+    "seconds": 13.11,
+    "top_score": 5.264,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 0.0,
+    "complete": false,
+    "cited_gold": [
+     false,
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a38",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "SP 800-63-4 provides requirements on the use of federated identity architectures and assertions to convey the results of authentication processes and relevant identity information to an organization's application. [2]",
+    "cited": [
+     2
+    ],
+    "seconds": 9.92,
+    "top_score": 4.877,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 0.0,
+    "complete": false,
+    "cited_gold": [
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a39",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Yes, an organization can require phishing-resistant authentication at AAL2. [1][2]",
+    "cited": [
+     1,
+     2
+    ],
+    "seconds": 7.71,
+    "top_score": 8.843,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a40",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "IAL1 supports the real-world existence of the claimed identity and provides some assurance that the applicant is associated with that identity. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 8.69,
+    "top_score": 7.167,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "u01",
+    "answerable": false,
+    "split": "dev",
+    "abstained": true,
+    "reason": "low_retrieval_score",
+    "text": "I could not find this in the document library.",
+    "cited": [],
+    "seconds": 2.46,
+    "top_score": -11.053,
+    "invalid_citations": [],
+    "attribution": "model"
+   },
+   {
+    "id": "u02",
+    "answerable": false,
+    "split": "test",
+    "abstained": true,
+    "reason": "low_retrieval_score",
+    "text": "I could not find this in the document library.",
+    "cited": [],
+    "seconds": 1.86,
+    "top_score": -9.532,
+    "invalid_citations": [],
+    "attribution": "model"
+   },
+   {
+    "id": "u03",
+    "answerable": false,
+    "split": "test",
+    "abstained": true,
+    "reason": "low_retrieval_score",
+    "text": "I could not find this in the document library.",
+    "cited": [],
+    "seconds": 1.99,
+    "top_score": -10.772,
+    "invalid_citations": [],
+    "attribution": "model"
+   },
+   {
+    "id": "u04",
+    "answerable": false,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "NIST certifies zero trust compliant products as proprietary, single-vendor controlled APIs. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 10.32,
+    "top_score": 2.77,
+    "invalid_citations": [],
+    "attribution": "post-hoc"
+   },
+   {
+    "id": "u05",
+    "answerable": false,
+    "split": "dev",
+    "abstained": true,
+    "reason": "low_retrieval_score",
+    "text": "I could not find this in the document library.",
+    "cited": [],
+    "seconds": 1.55,
+    "top_score": -6.952,
+    "invalid_citations": [],
+    "attribution": "model"
+   },
+   {
+    "id": "u06",
+    "answerable": false,
+    "split": "test",
+    "abstained": true,
+    "reason": "low_retrieval_score",
+    "text": "I could not find this in the document library.",
+    "cited": [],
+    "seconds": 1.75,
+    "top_score": -1.753,
+    "invalid_citations": [],
+    "attribution": "model"
+   },
+   {
+    "id": "u07",
+    "answerable": false,
+    "split": "test",
+    "abstained": true,
+    "reason": "low_retrieval_score",
+    "text": "I could not find this in the document library.",
+    "cited": [],
+    "seconds": 1.21,
+    "top_score": -5.818,
+    "invalid_citations": [],
+    "attribution": "model"
+   },
+   {
+    "id": "u08",
+    "answerable": false,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The AI RMF recommends using GPUs for training the models discussed in the AI RMF. [1][4]",
+    "cited": [
+     1,
+     4
+    ],
+    "seconds": 9.84,
+    "top_score": 0.517,
+    "invalid_citations": [],
+    "attribution": "post-hoc"
+   }
+  ],
+  "qwen2.5-1.5b": [
+   {
+    "id": "a01",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "The four functions of the AI RMF Core are: GOVERN, MAP, MEASURE, and MANAGE. [1][2]",
+    "cited": [
+     1,
+     2
+    ],
+    "seconds": 16.18,
+    "top_score": 9.851,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a02",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The framework describes the following characteristics of trustworthy AI systems: valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 15.25,
+    "top_score": 9.248,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a03",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "TEVV stands for Test, Evaluation, Verification, and Validation. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 11.62,
+    "top_score": 6.335,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a04",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "No, use of the AI RMF alone will not lead to the establishment of appropriate accountability mechanisms, roles and responsibilities, culture, and incentive structures for risk management. [1] Effective risk management is realized through organizational commitment at senior levels and may require cultural change within an organization or industry. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 15.31,
+    "top_score": 4.367,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 0.0,
+    "complete": false,
+    "cited_gold": [
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a05",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "Valid & Reliable is a necessary condition of trustworthiness and is shown as the base for other trustworthiness characteristics. [1][2]",
+    "cited": [
+     1,
+     2
+    ],
+    "seconds": 13.34,
+    "top_score": 7.774,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a06",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "AI actors are defined as those who play an active role in the AI system lifecycle, including organizations and individuals that deploy or operate AI. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 11.87,
+    "top_score": 9.312,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a07",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The confident production of false content is called confabulation or hallucinations. [2][3]",
+    "cited": [
+     3,
+     2
+    ],
+    "seconds": 13.34,
+    "top_score": 3.313,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false,
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a08",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "CBRN Information or Capabilities [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 16.48,
+    "top_score": -0.145,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a09",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "A Profile defines the Data Privacy risk by selecting specific Functions, Categories, and Subcategories from the Core that an organization has prioritized to help manage privacy risk. [1][2] This allows an organization to identify opportunities for improving privacy posture by comparing a \"Current\" Profile with a \"Target\" Profile. [3]",
+    "cited": [
+     1,
+     2,
+     3
+    ],
+    "seconds": 17.09,
+    "top_score": 5.398,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 0.0,
+    "complete": false,
+    "cited_gold": [
+     false,
+     false,
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a10",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The Human-AI Configuration risk includes issues such as humans being unnecessarily \"averse\" to GAI systems, over-reliance on GAI systems, unjustified perception of GAI content as higher quality, and automation bias. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 15.53,
+    "top_score": 6.313,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a11",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The Value Chain and Component Integration risk refers to the risks associated with the value chain and component integration of AI systems. [1][2] This includes risks related to data privacy, information security, harmful bias and homogenization, and the integration of third-party components. [1]",
+    "cited": [
+     2,
+     1
+    ],
+    "seconds": 15.42,
+    "top_score": 5.59,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 0.5,
+    "complete": false,
+    "cited_gold": [
+     false,
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a12",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The Environmental Impacts risk describes harms to the environment and ecosystems. [1][2]",
+    "cited": [
+     2,
+     1
+    ],
+    "seconds": 13.64,
+    "top_score": 3.024,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 0.0,
+    "complete": false,
+    "cited_gold": [
+     false,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a13",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "The six Functions of the CSF 2.0 Core are Govern, Identify, Protect, Detect, Respond, and Recover. [1][2]",
+    "cited": [
+     1,
+     2
+    ],
+    "seconds": 16.15,
+    "top_score": 6.913,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false,
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a14",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The four CSF Tiers are Partial (Tier 1), Risk Informed (Tier 2), Repeatable (Tier 3), and Adaptive (Tier 4). [1][3]",
+    "cited": [
+     3,
+     1
+    ],
+    "seconds": 14.8,
+    "top_score": 7.811,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false,
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a15",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "A CSF Organizational Profile is a mechanism for describing an organization's current and/or target cybersecurity posture in terms of the CSF Core's outcomes. [2][3]",
+    "cited": [
+     3,
+     2
+    ],
+    "seconds": 15.15,
+    "top_score": 9.126,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a16",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Informative References in the CSF are mappings that indicate relationships between the Core and various standards, guidelines, regulations, and other content. [1] They help inform how an organization may achieve the Core's outcomes. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 16.03,
+    "top_score": 8.455,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a17",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "No, the CSF Functions should be addressed concurrently. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 14.14,
+    "top_score": 7.338,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a18",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The GOVERN Function provides outcomes to inform what an organization may do to achieve and prioritize the outcomes of the other five Functions in the context of its mission and stakeholder expectations. [2]",
+    "cited": [
+     2
+    ],
+    "seconds": 13.71,
+    "top_score": 8.51,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a19",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The five Functions of the Privacy Framework Core are Identify-P, Govern-P, Control-P, Communicate-P, and Detect-P. [2]",
+    "cited": [
+     2
+    ],
+    "seconds": 14.54,
+    "top_score": 7.534,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 0.8,
+    "complete": false,
+    "cited_gold": [
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a20",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The Privacy Framework is composed of three parts: Core, Profiles, and Implementation Tiers. [1][2]",
+    "cited": [
+     1,
+     2
+    ],
+    "seconds": 11.83,
+    "top_score": 9.425,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a21",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "The Privacy Framework can be used together with the Cybersecurity Framework Functions by leveraging the Detect, Respond, and Recover Functions from the Cybersecurity Framework to manage risks associated with cybersecurity-related privacy events. [1][2] Alternatively, organizations can use all five of the Cybersecurity Framework Functions in conjunction with the Identify-P, Govern-P, Control-P, and Communicate-P functions from the Privacy Framework to collectively address privacy and cybersecurity risks. [1][2]",
+    "cited": [
+     1,
+     2
+    ],
+    "seconds": 16.27,
+    "top_score": 8.927,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a22",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The Privacy Framework Functions are labelled with a '-P' suffix to avoid confusion with Cybersecurity Framework Functions. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 14.29,
+    "top_score": 5.066,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a23",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The four groups of practices in the SSDF are: [1] 1. Prepare the Organization (PO) 2. [1] Protect the Software (PS) 3. [1] Produce Well-Secured Software (PW) 4. [1] Identify and Respond to Residual Vulnerabilities (IR) [3]",
+    "cited": [
+     1,
+     3
+    ],
+    "seconds": 16.33,
+    "top_score": 7.337,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 0.75,
+    "complete": false,
+    "cited_gold": [
+     true,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a24",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "SSDF practice PS.1 aims to prevent unauthorized access to all components of the software. [2][3]",
+    "cited": [
+     3,
+     2
+    ],
+    "seconds": 20.65,
+    "top_score": 3.383,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 0.5,
+    "complete": false,
+    "cited_gold": [
+     false,
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a25",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "Executive Order 14028 was issued on May 12, 2021, and it is titled \"Improving the Nation's Cybersecurity.\" [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 16.24,
+    "top_score": 6.736,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a26",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Organizations should define security requirements for software development. [2]",
+    "cited": [
+     2
+    ],
+    "seconds": 13.45,
+    "top_score": 2.933,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a27",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Practice RV.1 focuses on identifying residual vulnerabilities in software releases and responding appropriately to address those vulnerabilities and prevent similar ones from occurring in the future. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 25.92,
+    "top_score": 0.8,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a28",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The two logical components that make up the policy decision point are the policy engine and policy administrator. [1][3]",
+    "cited": [
+     1,
+     3
+    ],
+    "seconds": 13.41,
+    "top_score": 7.792,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a29",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "Zero trust assumes there is no implicit trust granted to assets or user accounts based solely on their physical or network location. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 12.89,
+    "top_score": 6.971,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a30",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The policy engine is responsible for the ultimate decision to grant access to a resource for a given subject. [1] It uses enterprise policy as well as input from external sources to make a trust algorithm decision. [1] The policy engine makes and logs the decision, and the policy administrator executes the decision. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 15.56,
+    "top_score": 7.701,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a31",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The policy enforcement point (PEP) is responsible for enabling, monitoring, and eventually terminating connections between a subject and an enterprise resource. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 14.58,
+    "top_score": 5.967,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a32",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "An enterprise treats its own network in a zero trust model by allowing network connectivity to devices and visitors while obscuring enterprise resources. [3]",
+    "cited": [
+     3
+    ],
+    "seconds": 13.05,
+    "top_score": 6.092,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 0.0,
+    "complete": false,
+    "cited_gold": [
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a33",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "Detect, Respond, and Recover [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 12.28,
+    "top_score": 6.814,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a34",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Lessons learned from incidents matter for cybersecurity risk management because they help improve cybersecurity risk management and incident response practices by reducing data loss or theft, the disruption of services, and the overall impact of incidents. [2][3]",
+    "cited": [
+     2,
+     3
+    ],
+    "seconds": 10.93,
+    "top_score": 7.139,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true,
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a35",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The incident response life cycle proposed in SP 800-61 Rev. [1][3] 3 is based on CSF 2.0 Functions. [2][3]",
+    "cited": [
+     3,
+     1,
+     2
+    ],
+    "seconds": 15.51,
+    "top_score": 3.893,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false,
+     false,
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a36",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "The high-level incident response model uses six CSF 2.0 Functions: Govern, Identify, Protect, Detect, Respond, and Recover. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 13.82,
+    "top_score": 7.151,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a37",
+    "answerable": true,
+    "split": "dev",
+    "abstained": false,
+    "reason": "",
+    "text": "SP 800-63-4 introduces individual components of digital authentication assurance (i.e., AAL, IAL, and FAL) to support the growing need for independent treatment of authentication strength and confidence in an individual's claimed identity. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 19.74,
+    "top_score": 5.264,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 0.0,
+    "complete": false,
+    "cited_gold": [
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a38",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "SP 800-63-4 provides requirements on the use of federated identity architectures and assertions to convey the results of authentication processes and relevant identity information to an organization's application. [2]",
+    "cited": [
+     2
+    ],
+    "seconds": 15.36,
+    "top_score": 4.877,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 0.0,
+    "complete": false,
+    "cited_gold": [
+     false
+    ],
+    "gold_in_context": false
+   },
+   {
+    "id": "a39",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "Yes, an organization can require phishing-resistant authentication at AAL2. [2]",
+    "cited": [
+     2
+    ],
+    "seconds": 10.9,
+    "top_score": 8.843,
+    "invalid_citations": [],
+    "attribution": "model",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     false
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "a40",
+    "answerable": true,
+    "split": "test",
+    "abstained": false,
+    "reason": "",
+    "text": "IAL1 supports the real-world existence of the claimed identity and provides some assurance that the applicant is associated with that identity. [1]",
+    "cited": [
+     1
+    ],
+    "seconds": 12.09,
+    "top_score": 7.167,
+    "invalid_citations": [],
+    "attribution": "post-hoc",
+    "coverage": 1.0,
+    "complete": true,
+    "cited_gold": [
+     true
+    ],
+    "gold_in_context": true
+   },
+   {
+    "id": "u01",
+    "answerable": false,
+    "split": "dev",
+    "abstained": true,
+    "reason": "low_retrieval_score",
+    "text": "I could not find this in the document library.",
+    "cited": [],
+    "seconds": 2.05,
+    "top_score": -11.053,
+    "invalid_citations": [],
+    "attribution": "model"
+   },
+   {
+    "id": "u02",
+    "answerable": false,
+    "split": "test",
+    "abstained": true,
+    "reason": "low_retrieval_score",
+    "text": "I could not find this in the document library.",
+    "cited": [],
+    "seconds": 1.45,
+    "top_score": -9.532,
+    "invalid_citations": [],
+    "attribution": "model"
+   },
+   {
+    "id": "u03",
+    "answerable": false,
+    "split": "test",
+    "abstained": true,
+    "reason": "low_retrieval_score",
+    "text": "I could not find this in the document library.",
+    "cited": [],
+    "seconds": 1.79,
+    "top_score": -10.772,
+    "invalid_citations": [],
+    "attribution": "model"
+   },
+   {
+    "id": "u04",
+    "answerable": false,
+    "split": "test",
+    "abstained": true,
+    "reason": "model_abstained",
+    "text": "I could not find this in the document library.",
+    "cited": [],
+    "seconds": 11.56,
+    "top_score": 2.77,
+    "invalid_citations": [],
+    "attribution": "model"
+   },
+   {
+    "id": "u05",
+    "answerable": false,
+    "split": "dev",
+    "abstained": true,
+    "reason": "low_retrieval_score",
+    "text": "I could not find this in the document library.",
+    "cited": [],
+    "seconds": 1.07,
+    "top_score": -6.952,
+    "invalid_citations": [],
+    "attribution": "model"
+   },
+   {
+    "id": "u06",
+    "answerable": false,
+    "split": "test",
+    "abstained": true,
+    "reason": "low_retrieval_score",
+    "text": "I could not find this in the document library.",
+    "cited": [],
+    "seconds": 1.2,
+    "top_score": -1.753,
+    "invalid_citations": [],
+    "attribution": "model"
+   },
+   {
+    "id": "u07",
+    "answerable": false,
+    "split": "test",
+    "abstained": true,
+    "reason": "low_retrieval_score",
+    "text": "I could not find this in the document library.",
+    "cited": [],
+    "seconds": 0.78,
+    "top_score": -5.818,
+    "invalid_citations": [],
+    "attribution": "model"
+   },
+   {
+    "id": "u08",
+    "answerable": false,
+    "split": "test",
+    "abstained": true,
+    "reason": "model_abstained",
+    "text": "I could not find this in the document library.",
+    "cited": [],
+    "seconds": 13.35,
+    "top_score": 0.517,
+    "invalid_citations": [],
+    "attribution": "model"
+   }
+  ]
+ }
+}

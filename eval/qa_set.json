@@ -1,0 +1,923 @@
+[
+ {
+  "id": "a01",
+  "question": "What are the four functions of the AI RMF Core?",
+  "answerable": true,
+  "doc": "ai-rmf",
+  "gold_pages": [
+   25
+  ],
+  "must_include": [
+   [
+    "govern"
+   ],
+   [
+    "map"
+   ],
+   [
+    "measure"
+   ],
+   [
+    "manage"
+   ]
+  ],
+  "evidence": [
+   "composed of four functions: GOVERN"
+  ],
+  "split": "dev"
+ },
+ {
+  "id": "a02",
+  "question": "Which characteristics of trustworthy AI systems does the framework describe?",
+  "answerable": true,
+  "doc": "ai-rmf",
+  "gold_pages": [
+   8,
+   17
+  ],
+  "must_include": [
+   [
+    "valid and reliable"
+   ],
+   [
+    "explainable and interpretable"
+   ],
+   [
+    "privacy"
+   ],
+   [
+    "fair"
+   ]
+  ],
+  "evidence": [
+   "valid and reliable, safe, secure and resilient, accountable and transparent"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a03",
+  "question": "What does TEVV stand for in the AI RMF?",
+  "answerable": true,
+  "doc": "ai-rmf",
+  "gold_pages": [
+   14,
+   33
+  ],
+  "must_include": [
+   [
+    "evaluation, verification"
+   ]
+  ],
+  "evidence": [
+   "test, evaluation, verification, and validation \\(TEVV\\)"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a04",
+  "question": "Is use of the AI RMF mandatory?",
+  "answerable": true,
+  "doc": "ai-rmf",
+  "gold_pages": [
+   7
+  ],
+  "must_include": [
+   [
+    "voluntary"
+   ]
+  ],
+  "evidence": [
+   "voluntary, rights-preserving"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a05",
+  "question": "Which characteristic is described as a necessary condition of trustworthiness?",
+  "answerable": true,
+  "doc": "ai-rmf",
+  "gold_pages": [
+   5,
+   17
+  ],
+  "must_include": [
+   [
+    "valid"
+   ],
+   [
+    "reliable"
+   ]
+  ],
+  "evidence": [
+   "Valid & Reliable is a necessary condition of trustworthiness"
+  ],
+  "split": "dev"
+ },
+ {
+  "id": "a06",
+  "question": "What are AI actors?",
+  "answerable": true,
+  "doc": "ai-rmf",
+  "gold_pages": [
+   7
+  ],
+  "must_include": [
+   [
+    "organizations and individuals"
+   ]
+  ],
+  "evidence": [
+   "referred to here as AI actors"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a07",
+  "question": "Which risk is the confident production of false content, and what is it colloquially called?",
+  "answerable": true,
+  "doc": "ai-genai",
+  "gold_pages": [
+   8
+  ],
+  "must_include": [
+   [
+    "confabulation"
+   ],
+   [
+    "hallucination"
+   ]
+  ],
+  "evidence": [
+   "Confabulation: The production of confidently stated but erroneous"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a08",
+  "question": "Which generative AI risk relates to chemical, biological, radiological or nuclear weapons?",
+  "answerable": true,
+  "doc": "ai-genai",
+  "gold_pages": [
+   8
+  ],
+  "must_include": [
+   [
+    "cbrn",
+    "chemical, biological"
+   ]
+  ],
+  "evidence": [
+   "chemical, biological, radiological, or nuclear \\(CBRN\\)"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a09",
+  "question": "How does the profile define the Data Privacy risk?",
+  "answerable": true,
+  "doc": "ai-genai",
+  "gold_pages": [
+   8
+  ],
+  "must_include": [
+   [
+    "leakage",
+    "unauthorized use"
+   ],
+   [
+    "personally identifiable",
+    "biometric"
+   ]
+  ],
+  "evidence": [
+   "Data Privacy: Impacts due to leakage and unauthorized use"
+  ],
+  "split": "dev"
+ },
+ {
+  "id": "a10",
+  "question": "What is the Human-AI Configuration risk?",
+  "answerable": true,
+  "doc": "ai-genai",
+  "gold_pages": [
+   8
+  ],
+  "must_include": [
+   [
+    "automation bias",
+    "over-reliance",
+    "algorithmic aversion"
+   ]
+  ],
+  "evidence": [
+   "Human-AI Configuration: Arrangements of or interactions between a human and an AI system"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a11",
+  "question": "What does the Value Chain and Component Integration risk refer to?",
+  "answerable": true,
+  "doc": "ai-genai",
+  "gold_pages": [
+   9
+  ],
+  "must_include": [
+   [
+    "third-party"
+   ],
+   [
+    "non-transparent",
+    "untraceable"
+   ]
+  ],
+  "evidence": [
+   "Value Chain and Component Integration: Non-transparent or untraceable integration"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a12",
+  "question": "What kind of harm does the Environmental Impacts risk describe?",
+  "answerable": true,
+  "doc": "ai-genai",
+  "gold_pages": [
+   8
+  ],
+  "must_include": [
+   [
+    "compute"
+   ]
+  ],
+  "evidence": [
+   "Environmental Impacts: Impacts due to high compute resource utilization"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a13",
+  "question": "What are the six Functions of the CSF 2.0 Core?",
+  "answerable": true,
+  "doc": "csf",
+  "gold_pages": [
+   8
+  ],
+  "must_include": [
+   [
+    "govern"
+   ],
+   [
+    "identify"
+   ],
+   [
+    "protect"
+   ],
+   [
+    "detect"
+   ],
+   [
+    "respond"
+   ],
+   [
+    "recover"
+   ]
+  ],
+  "evidence": [
+   "GOVERN, IDENTIFY, PROTECT, DETECT, RESPOND, and RECOVER"
+  ],
+  "split": "dev"
+ },
+ {
+  "id": "a14",
+  "question": "What are the four CSF Tiers?",
+  "answerable": true,
+  "doc": "csf",
+  "gold_pages": [
+   12,
+   31
+  ],
+  "must_include": [
+   [
+    "partial"
+   ],
+   [
+    "risk informed"
+   ],
+   [
+    "repeatable"
+   ],
+   [
+    "adaptive"
+   ]
+  ],
+  "evidence": [
+   "Partial \\(Tier 1\\), Risk Informed \\(Tier 2\\), Repeatable \\(Tier 3\\)"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a15",
+  "question": "What is a CSF Organizational Profile?",
+  "answerable": true,
+  "doc": "csf",
+  "gold_pages": [
+   6,
+   31
+  ],
+  "must_include": [
+   [
+    "current"
+   ],
+   [
+    "target"
+   ]
+  ],
+  "evidence": [
+   "mechanism for describing an organization's current and/or target cybersecurity posture"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a16",
+  "question": "What are Informative References in the CSF?",
+  "answerable": true,
+  "doc": "csf",
+  "gold_pages": [
+   6
+  ],
+  "must_include": [
+   [
+    "guidance",
+    "standards"
+   ]
+  ],
+  "evidence": [
+   "Informative References that point to sources of guidance"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a17",
+  "question": "Should the CSF Functions be addressed one after another?",
+  "answerable": true,
+  "doc": "csf",
+  "gold_pages": [
+   10
+  ],
+  "must_include": [
+   [
+    "concurrent"
+   ]
+  ],
+  "evidence": [
+   "Functions should be addressed concurrently"
+  ],
+  "split": "dev"
+ },
+ {
+  "id": "a18",
+  "question": "What does the GOVERN Function provide?",
+  "answerable": true,
+  "doc": "csf",
+  "gold_pages": [
+   8
+  ],
+  "must_include": [
+   [
+    "prioritize"
+   ],
+   [
+    "other five"
+   ]
+  ],
+  "evidence": [
+   "The GOVERN Function provides outcomes to inform what an organization may do"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a19",
+  "question": "What are the five Functions of the Privacy Framework Core?",
+  "answerable": true,
+  "doc": "privacy",
+  "gold_pages": [
+   10
+  ],
+  "must_include": [
+   [
+    "identify-p"
+   ],
+   [
+    "govern-p"
+   ],
+   [
+    "control-p"
+   ],
+   [
+    "communicate-p"
+   ],
+   [
+    "protect-p"
+   ]
+  ],
+  "evidence": [
+   "five Functions, Identify-P, Govern-P, Control-P, Communicate-P, and Protect-P"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a20",
+  "question": "What are the three parts that make up the Privacy Framework?",
+  "answerable": true,
+  "doc": "privacy",
+  "gold_pages": [
+   2,
+   6
+  ],
+  "must_include": [
+   [
+    "core"
+   ],
+   [
+    "profiles"
+   ],
+   [
+    "implementation tiers"
+   ]
+  ],
+  "evidence": [
+   "three parts: Core, Profiles, and Implementation Tiers"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a21",
+  "question": "How can the Privacy Framework be used together with the Cybersecurity Framework Functions?",
+  "answerable": true,
+  "doc": "privacy",
+  "gold_pages": [
+   11,
+   22
+  ],
+  "must_include": [
+   [
+    "cybersecurity framework"
+   ],
+   [
+    "identify-p"
+   ]
+  ],
+  "evidence": [
+   "use all five of the Cybersecurity Framework Functions in conjunction with Identify-P"
+  ],
+  "split": "dev"
+ },
+ {
+  "id": "a22",
+  "question": "Why are the Privacy Framework Functions labelled with a '-P' suffix?",
+  "answerable": true,
+  "doc": "privacy",
+  "gold_pages": [
+   10
+  ],
+  "must_include": [
+   [
+    "confusion"
+   ]
+  ],
+  "evidence": [
+   "in order to avoid confusion with Cybersecurity Framework Functions"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a23",
+  "question": "What are the four groups of practices in the SSDF?",
+  "answerable": true,
+  "doc": "ssdf",
+  "gold_pages": [
+   13
+  ],
+  "must_include": [
+   [
+    "prepare the organization"
+   ],
+   [
+    "protect the software"
+   ],
+   [
+    "produce well-secured software"
+   ],
+   [
+    "respond to vulnerabilities"
+   ]
+  ],
+  "evidence": [
+   "organized into four groups"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a24",
+  "question": "What does SSDF practice PS.1 aim to prevent?",
+  "answerable": true,
+  "doc": "ssdf",
+  "gold_pages": [
+   18
+  ],
+  "must_include": [
+   [
+    "unauthorized"
+   ],
+   [
+    "tampering",
+    "changes"
+   ]
+  ],
+  "evidence": [
+   "Protect All Forms of Code from Unauthorized Access and Tampering \\(PS\\.1\\)"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a25",
+  "question": "When was Executive Order 14028 issued and what is it titled?",
+  "answerable": true,
+  "doc": "ssdf",
+  "gold_pages": [
+   33
+  ],
+  "must_include": [
+   [
+    "may 12, 2021"
+   ],
+   [
+    "improving the nation's cybersecurity"
+   ]
+  ],
+  "evidence": [
+   "Improving the Nation's Cybersecurity \\(14028\\)\\\" issued on May 12, 2021"
+  ],
+  "split": "dev"
+ },
+ {
+  "id": "a26",
+  "question": "What does practice PO.1 ask organizations to define?",
+  "answerable": true,
+  "doc": "ssdf",
+  "gold_pages": [
+   14
+  ],
+  "must_include": [
+   [
+    "security requirements"
+   ]
+  ],
+  "evidence": [
+   "Define Security Requirements for Software Development \\(PO\\.1\\)"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a27",
+  "question": "What does practice RV.1 focus on?",
+  "answerable": true,
+  "doc": "ssdf",
+  "gold_pages": [
+   25
+  ],
+  "must_include": [
+   [
+    "vulnerabilit"
+   ]
+  ],
+  "evidence": [
+   "Identify and Confirm Vulnerabilities on an Ongoing Basis \\(RV\\.1\\)"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a28",
+  "question": "What two logical components make up the policy decision point?",
+  "answerable": true,
+  "doc": "zero-trust",
+  "gold_pages": [
+   18
+  ],
+  "must_include": [
+   [
+    "policy engine"
+   ],
+   [
+    "policy administrator"
+   ]
+  ],
+  "evidence": [
+   "policy decision point \\(PDP\\) is broken down into two logical components"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a29",
+  "question": "What does zero trust assume about network location?",
+  "answerable": true,
+  "doc": "zero-trust",
+  "gold_pages": [
+   4
+  ],
+  "must_include": [
+   [
+    "implicit trust",
+    "no trust"
+   ]
+  ],
+  "evidence": [
+   "no implicit trust granted to assets or user accounts based solely on their physical or network location"
+  ],
+  "split": "dev"
+ },
+ {
+  "id": "a30",
+  "question": "What is the policy engine responsible for?",
+  "answerable": true,
+  "doc": "zero-trust",
+  "gold_pages": [
+   18
+  ],
+  "must_include": [
+   [
+    "decision"
+   ],
+   [
+    "access"
+   ]
+  ],
+  "evidence": [
+   "responsible for the ultimate decision to grant access to a resource"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a31",
+  "question": "What does the policy enforcement point do?",
+  "answerable": true,
+  "doc": "zero-trust",
+  "gold_pages": [
+   19
+  ],
+  "must_include": [
+   [
+    "terminating",
+    "monitoring"
+   ],
+   [
+    "connections"
+   ]
+  ],
+  "evidence": [
+   "Policy enforcement point \\(PEP\\): This system is responsible for enabling, monitoring, and eventually terminating"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a32",
+  "question": "How does an enterprise treat its own network in a zero trust model?",
+  "answerable": true,
+  "doc": "zero-trust",
+  "gold_pages": [
+   10
+  ],
+  "must_include": [
+   [
+    "no implicit trust",
+    "not implicit"
+   ]
+  ],
+  "evidence": [
+   "an enterprise must assume no implicit trust"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a33",
+  "question": "Which CSF 2.0 Functions cover discovering, containing and recovering from incidents?",
+  "answerable": true,
+  "doc": "incident",
+  "gold_pages": [
+   9,
+   13
+  ],
+  "must_include": [
+   [
+    "detect"
+   ],
+   [
+    "respond"
+   ],
+   [
+    "recover"
+   ]
+  ],
+  "evidence": [
+   "Detect, Respond, and Recover help organizations discover, manage, prioritize, contain"
+  ],
+  "split": "dev"
+ },
+ {
+  "id": "a34",
+  "question": "Why do lessons learned from incidents matter for cybersecurity risk management?",
+  "answerable": true,
+  "doc": "incident",
+  "gold_pages": [
+   10
+  ],
+  "must_include": [
+   [
+    "improve"
+   ],
+   [
+    "root cause",
+    "lessons"
+   ]
+  ],
+  "evidence": [
+   "Lessons learned from incident response activities and root cause analysis"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a35",
+  "question": "What is the basis of the incident response life cycle proposed in SP 800-61 Rev. 3?",
+  "answerable": true,
+  "doc": "incident",
+  "gold_pages": [
+   12
+  ],
+  "must_include": [
+   [
+    "csf 2.0"
+   ],
+   [
+    "life cycle"
+   ]
+  ],
+  "evidence": [
+   "proposes a new life cycle model based on CSF 2.0 Functions"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a36",
+  "question": "How many CSF 2.0 Functions does the high-level incident response model use?",
+  "answerable": true,
+  "doc": "incident",
+  "gold_pages": [
+   13
+  ],
+  "must_include": [
+   [
+    "six"
+   ]
+  ],
+  "evidence": [
+   "life cycle model based on the six CSF 2.0 Functions"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a37",
+  "question": "How does SP 800-63-4 change IAL1?",
+  "answerable": true,
+  "doc": "identity",
+  "gold_pages": [
+   15
+  ],
+  "must_include": [
+   [
+    "ial1"
+   ],
+   [
+    "repurpos",
+    "new assurance level"
+   ]
+  ],
+  "evidence": [
+   "repurposing IAL1 as a new assurance level"
+  ],
+  "split": "dev"
+ },
+ {
+  "id": "a38",
+  "question": "What new authentication options does SP 800-63-4 provide?",
+  "answerable": true,
+  "doc": "identity",
+  "gold_pages": [
+   15
+  ],
+  "must_include": [
+   [
+    "phishing-resistant"
+   ]
+  ],
+  "evidence": [
+   "new options for phishing-resistant authentication"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a39",
+  "question": "Can an organization require phishing-resistant authentication at AAL2?",
+  "answerable": true,
+  "doc": "identity",
+  "gold_pages": [
+   54
+  ],
+  "must_include": [
+   [
+    "phishing-resistant"
+   ],
+   [
+    "aal2"
+   ]
+  ],
+  "evidence": [
+   "restrict users to only phishing-resistant authentication at AAL2"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "a40",
+  "question": "What does IAL1 support?",
+  "answerable": true,
+  "doc": "identity",
+  "gold_pages": [
+   44
+  ],
+  "must_include": [
+   [
+    "real-world existence",
+    "claimed identity"
+   ]
+  ],
+  "evidence": [
+   "IAL1 supports the real-world existence of the claimed identity"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "u01",
+  "question": "What is the recipe for a classic margherita pizza?",
+  "answerable": false,
+  "kind": "off",
+  "split": "dev"
+ },
+ {
+  "id": "u02",
+  "question": "Who won the 2022 FIFA World Cup?",
+  "answerable": false,
+  "kind": "off",
+  "split": "test"
+ },
+ {
+  "id": "u03",
+  "question": "What is the maximum fine for a GDPR violation?",
+  "answerable": false,
+  "kind": "near",
+  "split": "test"
+ },
+ {
+  "id": "u04",
+  "question": "Which specific vendor products does NIST certify as zero trust compliant?",
+  "answerable": false,
+  "kind": "near",
+  "split": "test"
+ },
+ {
+  "id": "u05",
+  "question": "What is the required minimum password length under PCI DSS?",
+  "answerable": false,
+  "kind": "near",
+  "split": "dev"
+ },
+ {
+  "id": "u06",
+  "question": "How much does a NIST Cybersecurity Framework consulting engagement cost?",
+  "answerable": false,
+  "kind": "near",
+  "split": "test"
+ },
+ {
+  "id": "u07",
+  "question": "What did the HIPAA Security Rule require for audit logging in 1996?",
+  "answerable": false,
+  "kind": "near",
+  "split": "test"
+ },
+ {
+  "id": "u08",
+  "question": "What GPU hardware is recommended for training the models discussed in the AI RMF?",
+  "answerable": false,
+  "kind": "near",
+  "split": "test"
+ }
+]

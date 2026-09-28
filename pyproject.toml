@@ -1,0 +1,55 @@
+[project]
+name = "docqa"
+version = "0.1.0"
+description = "Cited question answering over a document library: hybrid retrieval, reranking and a small local LLM"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "pyarrow>=15",
+    "pypdf>=5.0",
+    "faiss-cpu>=1.8",
+    "rank-bm25>=0.2.2",
+    "fastembed>=0.4",
+    "huggingface_hub>=0.24",
+    "mlflow>=2.12",
+    "streamlit>=1.40",
+    "plotly>=5.24",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+# the local LLM runtime: prebuilt CPU wheels only exist on a separate index, so it is an extra
+# (CI and the retrieval-only tests never need it)
+llm = ["llama-cpp-python>=0.3.16"]
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.5", "jupyter>=1.0", "nbconvert>=7", "ipykernel>=6"]
+
+[[tool.uv.index]]
+name = "llama-cpp-cpu"
+url = "https://abetlen.github.io/llama-cpp-python/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+llama-cpp-python = { index = "llama-cpp-cpu" }
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/docqa"]
+
+[tool.ruff]
+line-length = 100
+src = ["src", "tests", "app"]
+extend-exclude = ["notebooks"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
