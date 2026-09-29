@@ -2,7 +2,7 @@
 
 Ask a question in plain English and get an answer **with the document and page it came from**, drawn from a library of 8 public NIST publications (AI risk, cybersecurity, privacy, zero trust, secure software, incident response, digital identity). Hybrid retrieval (BM25 + dense embeddings) with a cross-encoder reranker, a small **local** open LLM for the answer, a retrieval-confidence gate that refuses questions the library cannot answer, and a hand-verified evaluation set with honest, small-sample error bars.
 
-**Live demo:** _added after deployment_ · **Stack:** sentence embeddings (bge-small, ONNX), FAISS, BM25, cross-encoder reranking, llama.cpp (Qwen2.5 GGUF), MLflow, Streamlit
+**Live demo:** https://document-app-rag-assistant-8xsegsohb7z3zi5ga9pmpc.streamlit.app/ · **Stack:** sentence embeddings (bge-small, ONNX), FAISS, BM25, cross-encoder reranking, llama.cpp (Qwen2.5 GGUF), MLflow, Streamlit
 
 ![Answer with citations](reports/figures/app_answer.png)
 
